@@ -1,53 +1,53 @@
-Gemeindeschlüsselnummer;Gemeinde;km²;Einwohner;Landkreis
-42111;Beckingen;51.85;14923;Merzig-Wadern
-45111;Bexbach;31.09;17482;Saarpfalz
-45112;Blieskastel;108.21;20153;Saarpfalz
-44122;Bous;7.63;6978;Saarlouis
-44111;Dillingen/Saar;22.05;19668;Saarlouis
-44123;Ensdorf;8.39;6502;Saarlouis
-43111;Eppelborn;47.25;16465;Neunkirchen
-46111;Freisen;48.09;7789;St. Wendel
-41511;Friedrichsthal;8.99;9955;RV Saarbrücken
-45113;Gersheim;57.37;6292;Saarpfalz
-41512;Großrosseln;25.26;7953;RV Saarbrücken
-41513;Heusweiler;40.01;17998;RV Saarbrücken
-45114;Homburg (Kreisstadt);82.61;41612;Saarpfalz
-43112;Illingen;36.09;15982;Neunkirchen
-45115;Kirkel;31.34;9992;Saarpfalz
-41514;Kleinblittersdorf;27.19;10707;RV Saarbrücken
-44112;Lebach;64.21;18694;Saarlouis
-42112;Losheim am See;96.95;15983;Merzig-Wadern
-45116;Mandelbachtal;57.71;10458;Saarpfalz
-46112;Marpingen;39.83;9962;St. Wendel
-43113;Merchweiler;12.80;9672;Neunkirchen
-42113;Merzig (Kreisstadt);108.98;29609;Merzig-Wadern
-42114;Mettlach;77.82;12044;Merzig-Wadern
-44113;Nalbach;22.43;9079;Saarlouis
-46113;Namborn;25.98;6928;St. Wendel
-43114;Neunkirchen (Kreisstadt);75.26;46098;Neunkirchen
-46114;Nohfelden;100.82;9826;St. Wendel
-46115;Nonnweiler;66.40;8458;St. Wendel
-46116;Oberthal;23.87;5953;St. Wendel
-43115;Ottweiler (KV-Sitz);45.56;14395;Neunkirchen
-42115;Perl;75.24;8872;Merzig-Wadern
-41515;Püttlingen;23.95;18269;RV Saarbrücken
-41516;Quierschied;20.21;12816;RV Saarbrücken
-44114;Rehlingen-Siersburg;61.24;14343;Saarlouis
-41517;Riegelsberg;14.65;14268;RV Saarbrücken
-41100;Saarbrücken (RV-Sitz);167.52;179634;RV Saarbrücken
-44115;Saarlouis (Kreisstadt);43.30;34445;Saarlouis
-44116;Saarwellingen;41.67;13177;Saarlouis
-43116;Schiffweiler;21.42;15552;Neunkirchen
-44117;Schmelz;58.62;16136;Saarlouis
-44118;Schwalbach;27.37;17126;Saarlouis
-43117;Spiesen-Elversberg;11.42;12683;Neunkirchen
-45117;St. Ingbert (Mittelstadt);49.95;34971;Saarpfalz
-46117;St. Wendel (Kreisstadt);113.53;25337;St. Wendel
-41518;Sulzbach/Saar;16.07;16256;RV Saarbrücken
-46118;Tholey;57.55;11917;St. Wendel
-44119;Überherrn;34.31;11393;Saarlouis
-41519;Völklingen (Mittelstadt);67.10;39428;RV Saarbrücken
-42116;Wadern;111.14;15697;Merzig-Wadern
-44120;Wadgassen;25.91;16900;Saarlouis
-44121;Wallerfangen;42.22;9220;Saarlouis
-42117;Weiskirchen;33.65;6298;Merzig-Wadern
+Gemeindeschlüsselnummer;Gemeinde;km²;Einwohner;Landkreis;Grundstückspreise in € pro m²
+42111;Beckingen;51.85;14923;Merzig-Wadern;75-100
+45111;Bexbach;31.09;17482;Saarpfalz;100-150
+45112;Blieskastel;108.21;20153;Saarpfalz;100-150
+44122;Bous;7.63;6978;Saarlouis;100-150
+44111;Dillingen/Saar;22.05;19668;Saarlouis;100-150
+44123;Ensdorf;8.39;6502;Saarlouis;145
+43111;Eppelborn;47.25;16465;Neunkirchen;75-100
+46111;Freisen;48.09;7789;St. Wendel;<50
+41511;Friedrichsthal;8.99;9955;RV Saarbrücken;75-100
+45113;Gersheim;57.37;6292;Saarpfalz;75-100
+41512;Großrosseln;25.26;7953;RV Saarbrücken;75-100
+41513;Heusweiler;40.01;17998;RV Saarbrücken;100-150
+45114;Homburg (Kreisstadt);82.61;41612;Saarpfalz;185
+43112;Illingen;36.09;15982;Neunkirchen;75-100
+45115;Kirkel;31.34;9992;Saarpfalz;150-200
+41514;Kleinblittersdorf;27.19;10707;RV Saarbrücken;100-150
+44112;Lebach;64.21;18694;Saarlouis;75-100
+42112;Losheim am See;96.95;15983;Merzig-Wadern;75-100
+45116;Mandelbachtal;57.71;10458;Saarpfalz;150-200
+46112;Marpingen;39.83;9962;St. Wendel;50-75
+43113;Merchweiler;12.80;9672;Neunkirchen;75-100
+42113;Merzig (Kreisstadt);108.98;29609;Merzig-Wadern;95
+42114;Mettlach;77.82;12044;Merzig-Wadern;75-100
+44113;Nalbach;22.43;9079;Saarlouis;75-100
+46113;Namborn;25.98;6928;St. Wendel;<50
+43114;Neunkirchen (Kreisstadt);75.26;46098;Neunkirchen;90
+46114;Nohfelden;100.82;9826;St. Wendel;<50
+46115;Nonnweiler;66.40;8458;St. Wendel;<50
+46116;Oberthal;23.87;5953;St. Wendel;50-75
+43115;Ottweiler (KV-Sitz);45.56;14395;Neunkirchen;75-100
+42115;Perl;75.24;8872;Merzig-Wadern;135
+41515;Püttlingen;23.95;18269;RV Saarbrücken;100-150
+41516;Quierschied;20.21;12816;RV Saarbrücken;75-100
+44114;Rehlingen-Siersburg;61.24;14343;Saarlouis;100-150
+41517;Riegelsberg;14.65;14268;RV Saarbrücken;100-150
+41100;Saarbrücken (RV-Sitz);167.52;179634;RV Saarbrücken;275
+44115;Saarlouis (Kreisstadt);43.30;34445;Saarlouis;145
+44116;Saarwellingen;41.67;13177;Saarlouis;100-150
+43116;Schiffweiler;21.42;15552;Neunkirchen;50-75
+44117;Schmelz;58.62;16136;Saarlouis;75-100
+44118;Schwalbach;27.37;17126;Saarlouis;100-150
+43117;Spiesen-Elversberg;11.42;12683;Neunkirchen;75-100
+45117;St. Ingbert (Mittelstadt);49.95;34971;Saarpfalz,150-200
+46117;St. Wendel (Kreisstadt);113.53;25337;St. Wendel;40
+41518;Sulzbach/Saar;16.07;16256;RV Saarbrücken;75-100
+46118;Tholey;57.55;11917;St. Wendel;50-75
+44119;Überherrn;34.31;11393;Saarlouis;100-150
+41519;Völklingen (Mittelstadt);67.10;39428;RV Saarbrücken;100-150
+42116;Wadern;111.14;15697;Merzig-Wadern;50-75
+44120;Wadgassen;25.91;16900;Saarlouis;100-150
+44121;Wallerfangen;42.22;9220;Saarlouis;100-150
+42117;Weiskirchen;33.65;6298;Merzig-Wadern;50-75
