@@ -1,22 +1,22 @@
-Stadt;Kabel-Internet coverage in %;DSL coverage in %;Glasfaser coverage in %;5G coverage in %
-Saarbrücken;74;93;4;85
-Neunkrichen;68;88;1;21
-Homburg;78;92;0;66
-Völklingen;65;94;0;70
-Saarlouis;92;96;20;99
-Sankt Ingbert;96;97;0;79
-Merzig;91;81;0;7
-Sankt Wendel;36;89;4;82
-Blieskastel;89;93;0;37
-Dillingen;78;97;0;95
-Lebach;13;71;0;74
-Püttlingen;25;97;2;18
-Heusweiler;14;69;18;58
-Bexbach;95;93;0;49
-Sulzbach;94;96;15;96
-Schwalbach (Saarlouis);90;97;0;27
-Illingen (Saar);95;95;0;86
-Wadgassen;24;98;0;80
-Eppelborn;93;76;0;44
-Schiffweiler;17;68;0;21
-Schmelz;91;89;0;83
+Gemeindeschlüsselnummer;Stadt;Kabel-Internet coverage in %;DSL coverage in %;Glasfaser coverage in %;5G coverage in %
+41100;Saarbrücken;74;93;4;85
+43114;Neunkrichen;68;88;1;21
+45114;Homburg;78;92;0;66
+41519;Völklingen;65;94;0;70
+44115;Saarlouis;92;96;20;99
+45117;Sankt Ingbert;96;97;0;79
+42113;Merzig;91;81;0;7
+46117;Sankt Wendel;36;89;4;82
+45112;Blieskastel;89;93;0;37
+44111;Dillingen;78;97;0;95
+44112;Lebach;13;71;0;74
+41515;Püttlingen;25;97;2;18
+41513;Heusweiler;14;69;18;58
+45111;Bexbach;95;93;0;49
+41518;Sulzbach;94;96;15;96
+44118;Schwalbach (Saarlouis);90;97;0;27
+43112;Illingen (Saar);95;95;0;86
+44120;Wadgassen;24;98;0;80
+43111;Eppelborn;93;76;0;44
+43116;Schiffweiler;17;68;0;21
+44117;Schmelz;91;89;0;83
