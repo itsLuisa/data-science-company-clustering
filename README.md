@@ -10,4 +10,4 @@ https://de.wikipedia.org/wiki/Liste_der_St%C3%A4dte_und_Gemeinden_im_Saarland
 
 
 ## Website
-https://saartificial-intelligence-a6bd90a76dd3.herokuapp.com/
+https://bulba-saar-adbe1cf42cac.herokuapp.com/
