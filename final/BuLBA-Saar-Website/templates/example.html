@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <title>BuLBA-Saar</title>
+            {{"decoupled-map"|googlemap_js(37.4419, -122.1419, varname="decoupledmap")}}
+            {{sndmap.js}}
+           
+
+            <style type="text/css">
+                #sndmap {
+                    height: 100%;
+                    width: 100%;
+                    position: absolute;
+                    /*overflow: hidden;*/
+                    margin: 0 auto;
+                    z-index:1;
+                }
+
+                #myform {
+                    height: 100%;
+                    width: 20%;
+                    position: absolute;
+                    z-index:2;
+                    /*background-color: #FFF4F4;*/
+                    overflow: hidden;
+                    margin: 0 auto;
+                }
+
+                #mylegend {
+                    /*height: 100%;*/
+                    width: 10%;
+
+                    position: absolute;
+                    left: 90%;
+                    top: 10%;
+                    z-index:2;
+                    background-color: white;
+                    opacity: 0.8;
+                    /*overflow: hidden;*/
+                    margin: 0 auto;
+                    padding: 5;
+                }
+            </style>
+
+            <!-- Theme style -->
+            <link rel="stylesheet" href={{ url_for('static',filename="dist/css/adminlte.min.css")}}>
+            <!--select2-->
+            <link rel="stylesheet" href={{ url_for('static',filename="plugins/select2/select2.min.css")}}>
+            <!-- Google Font: Source Sans Pro -->
+            <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+
+    </head>
+    <body>
+
+        
+
+
+
+
+
+
+
+        <!-- <h1>Flask Google Maps Example</h1> -->
+        <!-- <div>
+        <table>
+        <row> -->
+            <!-- <col> -->
+
+                <!-- Provide your Google Maps API Key to test it.
+                Get you APIKEY in <a href="https://console.developers.google.com/">https://console.developers.google.com/</a><br>
+                NOTE: You need to create an APIKEY and also activate Maps Javascript API for it. -->
+                <div >
+                <form action="." method="POST">
+                    <!-- <input type="text" name="apikey" id="apikey"/>
+                    <br>
+                    <input type="submit" value="load"/> -->
+
+                    <div id="myform" class="card card-info col-md-12">
+              
+                        <div class="card-header">
+                            <h3 class="card-title">Filters</h3>
+                        </div>
+
+                        <div class="card-body">
+
+                            <div class="form-group">
+                                <label>domains</label>
+                                <select id="domains" class="form-control select2" name="domains[]" multiple="multiple" data-placeholder="Select domains"
+                                        style="width: 100%;" >
+                                  {% for result in domains %}
+                                  <option id="d_{{ result }}" value="{{ result }}">{{ result }}</option>
+                                  {% endfor %}
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label>size</label>
+                                <select id="size" class="form-control select2" name="size[]" multiple="multiple" data-placeholder="Select size"
+                                        style="width: 100%;" >
+                                  {% for result in size %}
+                                  <option id="d_{{ result }}" value="{{ result }}">{{ result }}</option>
+                                  {% endfor %}
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label>rating</label>
+                                <select id="rating" class="form-control select2" name="rating[]" multiple="multiple" data-placeholder="Select rating"
+                                        style="width: 100%;" >
+                                  {% for result in rating %}
+                                  <option id="d_{{ result }}" value="{{ result }}">{{ result }}</option>
+                                  {% endfor %}
+                                </select>
+                            </div>
+                            
+                        </div>
+
+                        <div class="card-footer">
+                              <button type="submit" id=""  class="btn btn-primary" style="float: center;">Submit</button>
+                        </div>
+
+                    </div>
+
+                </form>
+                </div>
+                <!-- <hr> -->
+
+
+                <div id="mylegend">
+                    {% for result in legends %}
+                      <img id="d_{{ result[0] }}" src="{{ result[0] }}"> <br> <small>{{ result[1] }}</small>
+                      <br>
+                    {% endfor %}
+                </div>
+
+
+
+            <!-- </col> -->
+
+
+            <!-- <col> -->
+
+
+                <!-- <h2> Second map generated in view</h2> -->
+                <!-- <h3> Example for different icons in multiple markers</h3> -->
+                <!-- <h4>The blue point is clickable!</h4> -->
+                <div>
+                {{sndmap.html}}
+                </div>
+
+                <!-- <code> -->
+                    <!-- <pre>
+                        {% raw %} -->
+
+                        <!-- View:
+                        from flask_googlemaps import Map, icons
+
+                        @app.route("/")
+                        def mapview():
+                            sndmap = Map(
+                                identifier="sndmap",
+                                lat=37.4419,
+                                lng=-122.1419,
+                                markers={icons.dots.green: [(37.4419, -122.1419), (37.4500, -122.1350)],
+                                         'http://maps.google.com/mapfiles/ms/icons/blue-dot.png': [(37.4300, -122.1400, "Hello World")]}
+                            )
+                            return render_template('example.html', sndmap=sndmap) -->
+
+                        <!-- Template:
+                        in head:
+                            {{sndmap.js}}
+                        in body:
+                            {{sndmap.html}}
+
+                        {% endraw %}
+                     </pre> -->
+                <!-- </code> -->
+            <!-- </col> -->
+        <!-- </row> -->
+
+        <!-- </table> -->
+    <!-- </div> -->
+
+
+
+        <script src={{ url_for('static',filename="plugins/jquery/jquery.min.js") }}></script>
+        <!-- Bootstrap 4 -->
+        <script src={{ url_for('static',filename="plugins/bootstrap/js/bootstrap.bundle.min.js")}}></script>
+        <!-- Select2 -->
+        <script src={{ url_for('static',filename="plugins/select2/select2.full.min.js") }}></script>
+        <script>
+
+            $('.select2').select2();
+
+            $('#domains').select2({
+                maximumSelectionLength: 5
+            });
+            
+            // $('#domains').val(selected_domains);
+            // var selected_domains = $('#selected_domains').data();
+            let selected_domains = JSON.parse('{{ selected_domains | tojson }}');
+            $('#domains').select2('val', selected_domains );
+
+            let selected_size = JSON.parse('{{ selected_size | tojson }}');
+            $('#size').select2('val', selected_size );
+
+            let selected_rating = JSON.parse('{{ selected_rating | tojson }}');
+            $('#rating').select2('val', selected_rating );
+        </script>
+
+    </body>
+</html>
