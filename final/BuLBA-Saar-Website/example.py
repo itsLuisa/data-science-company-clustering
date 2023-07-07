@@ -11,7 +11,7 @@ app = Flask(__name__, template_folder="templates")
 
 
 # you can set key as config
-app.config['GOOGLEMAPS_KEY'] = "AIzaSyCr0HOONXFXb6kJwHSGQJgk_zzyaXr1WLU"
+app.config['GOOGLEMAPS_KEY'] = ""
 
 # you can also pass key here
 GoogleMaps(
